@@ -11,6 +11,8 @@
 		B2DC20A12A692E180065503F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC20A02A692E180065503F /* ContentView.swift */; };
 		B2DC20A32A692E180065503F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DC20A22A692E180065503F /* Assets.xcassets */; };
 		B2DC20A62A692E180065503F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DC20A52A692E180065503F /* Preview Assets.xcassets */; };
+		B2DC20AE2A6934380065503F /* MyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2DC20AC2A6934380065503F /* MyCoreData.xcdatamodeld */; };
+		B2DC20B02A6934900065503F /* Persistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC20AF2A6934900065503F /* Persistent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B2DC20A02A692E180065503F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2DC20A22A692E180065503F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2DC20A52A692E180065503F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2DC20AD2A6934380065503F /* MyCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCoreData.xcdatamodel; sourceTree = "<group>"; };
+		B2DC20AF2A6934900065503F /* Persistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B2DC209E2A692E180065503F /* MyCoreDataApp.swift */,
 				B2DC20A02A692E180065503F /* ContentView.swift */,
+				B2DC20AC2A6934380065503F /* MyCoreData.xcdatamodeld */,
+				B2DC20AF2A6934900065503F /* Persistent.swift */,
 				B2DC20A22A692E180065503F /* Assets.xcassets */,
 				B2DC20A42A692E180065503F /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DC20B02A6934900065503F /* Persistent.swift in Sources */,
 				B2DC20A12A692E180065503F /* ContentView.swift in Sources */,
 				B2DC209F2A692E180065503F /* MyCoreDataApp.swift in Sources */,
+				B2DC20AE2A6934380065503F /* MyCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +347,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2DC20AC2A6934380065503F /* MyCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2DC20AD2A6934380065503F /* MyCoreData.xcdatamodel */,
+			);
+			currentVersion = B2DC20AD2A6934380065503F /* MyCoreData.xcdatamodel */;
+			path = MyCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B2DC20932A692E180065503F /* Project object */;
 }
